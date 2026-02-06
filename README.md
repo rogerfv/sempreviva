@@ -1,7 +1,7 @@
 ﻿# Sempreviva – Supplier Risk Dashboard
 
 ## Overview
-This repository contains a packaged Streamlit dashboard used to analyze Sempreviva's income and expense data. The app ingests monthly Excel files, stores uploads in a local SQLite database, and renders KPI summaries, breakdowns, trends, and period comparisons. An optional Google Gemini integration can generate narrative insights when an API key is supplied in the UI.
+This repository contains a packaged Streamlit dashboard used to analyze Sempreviva's income and expense data. It is tailored specifically for the Sempreviva's framework, so it assmues certain inputs and workflows. The app ingests monthly Excel files, stores uploads in a local SQLite database, and renders KPI summaries, breakdowns, trends, and period comparisons. An optional Google Gemini integration can generate narrative insights when an API key is supplied in the UI.
 
 ## Features
 - Upload monthly income and expense Excel (`.xlsx`) files and store them in SQLite.
